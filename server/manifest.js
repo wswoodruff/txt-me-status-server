@@ -32,7 +32,14 @@ module.exports = new Confidence.Store({
             {
                 plugin: '../lib', // Main plugin
                 options: {
-                    textBackNumber: process.env.TEXT_BACK_NUMBER
+                    textBackNumber: process.env.TEXT_BACK_NUMBER,
+                    twilio: {
+                        account: {
+                            accountSid: process.env.SID,
+                            authToken: process.env.AUTH_TOKEN,
+                            defaultNumber: process.env.DEFAULT_NUMBER
+                        }
+                    }
                 }
             },
             {
