@@ -31,7 +31,9 @@ module.exports = new Confidence.Store({
         plugins: [
             {
                 plugin: '../lib', // Main plugin
-                options: {}
+                options: {
+                    textBackNumber: process.env.TEXT_BACK_NUMBER
+                }
             },
             {
                 plugin: './plugins/swagger'
