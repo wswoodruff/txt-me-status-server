@@ -40,7 +40,8 @@ module.exports = new Confidence.Store({
                             defaultNumber: process.env.DEFAULT_NUMBER
                         },
                         bearer: process.env.TWILIO_BEARER
-                    }
+                    },
+                    supportAgentNumber: process.env.SUPPORT_AGENT_NUMBER
                 }
             },
             {
