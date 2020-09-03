@@ -31,7 +31,7 @@
     "@hapi/eslint-config-hapi": "12.x.x",
     "@hapi/eslint-plugin-hapi": "4.x.x",
     "@hapi/glue": "6.x.x",
-    "@hapi/hapi": "18.x.x",
+    "@hapi/hapi": "19.x.x",
     "@hapi/inert": "^5.2.1",
     "@hapi/lab": "19.x.x",
     "@hapi/vision": "^5.5.2",
