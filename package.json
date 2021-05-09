@@ -21,7 +21,7 @@
     "hapi-auth-bearer-token": "^6.1.4",
     "haute-couture": "3.x.x",
     "joi": "14.x.x",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "schmervice": "1.x.x",
     "susie": "3.x.x",
     "txt-me": "^2.0.2"
